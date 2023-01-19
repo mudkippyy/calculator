@@ -1,0 +1,123 @@
+@keyframes fadeIn{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+html{
+    background-color: rgb(21, 23, 32);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+body{
+    animation: 0.75s cubic-bezier(.44,.28,.84,.7) 0s fadeIn;
+}
+
+
+
+input{
+    
+    width: 150px;
+    height: 150px;
+    font-size: 45px;
+    color: rgb(178, 186, 255, 0.75);
+    background-color: rgb(34, 42, 82);
+    margin-top: 2px;
+    
+    border: none;
+    border-radius: 20px;
+}
+input:hover{
+    background-color: rgb(22, 27, 53);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    
+    
+}
+
+input:active{
+    background-color: rgb(17, 20, 39);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    
+}
+
+.display{
+    position: relative;
+    top: 10px;
+    font-size: 75px;
+    color: rgba(175, 188, 255, 1);
+    border: none;
+    width: 455px;
+    background-color: rgb(34, 42, 82, 0.75);
+}
+
+
+.display:hover{
+    width: 455px;
+    background-color: rgb(34, 42, 82, 0.75);
+    cursor: auto;
+}
+
+.display:active{
+    width: 455px;
+    background-color: rgb(34, 42, 82, 0.75);
+    cursor: auto;
+    
+}
+
+.twitter{
+    transition-duration: 0.15s;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.twitter:hover{
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform: scale(120%);
+}
+
+.twitter:active{
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform: scale(125%);
+}
+
+.github{
+    transition-duration: 0.15s;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    
+}
+
+.github:hover{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    transform: scale(120%);
+}
+
+.github:active{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    transform: scale(125%);
+}
+
+.socials{
+    text-align: right;
+    
+}
