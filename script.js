@@ -2,7 +2,7 @@ console.log("s")
 
 function clearResult(){
     document.getElementById("result").value = "";
-    console.log("ss")
+    
 }
 
 function display(value){
